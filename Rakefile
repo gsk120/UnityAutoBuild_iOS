@@ -6,11 +6,11 @@ require 'xcodeproj'
 
 
 UNITY = '/Applications/Unity/Unity.app/Contents/MacOS/Unity'
-PROVISIONING_NAME = "LSOJP_Enterprise2"
+PROVISIONING_NAME = "Enterprise"
 
 
-PROJECT_DIR = "#{ENV['HOME']}/prj/toolbox/sample/ProjectBuild/MicoBuild" # ***
-XCODEPRJ_FPATH = "#{ENV['HOME']}/prj/toolbox/sample/ProjectBuild/BuildResult/Unity-iPhone.xcodeproj" # ***
+PROJECT_DIR = "#{ENV['HOME']}/prj/UnityAutoBuild_iOS/sample/ProjectBuild" # ***
+XCODEPRJ_FPATH = "#{ENV['HOME']}/prj/UnityAutoBuild_iOS/sample/BuildResult/Unity-iPhone.xcodeproj" # ***
 ARCHIVE_FPATH = "#{ENV['HOME']}/Library/Developer/Xcode/Archives/helloworld/Unity-iPhone-helloworld.xcarchive" # ***
 IPA_FPATH = "#{ENV['HOME']}/temp/test.ipa" # ***
 
@@ -44,5 +44,5 @@ end
 
 task :clean do
     sh "rm -rf #{IPA_FPATH}"
-    sh "rm -rf #{ENV['HOME']}/toolbox/sample/ProjectBuild/BuildResult" # ***
+    sh "rm -rf #{ENV['HOME']}/UnityAutoBuild_iOS/sample/BuildResult" # ***
 end
