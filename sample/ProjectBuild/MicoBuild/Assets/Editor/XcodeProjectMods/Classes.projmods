@@ -1,0 +1,9 @@
+{
+	"group": 	"Classes",
+	"folders":	["/Users/giseok/Documents/Project/Build/OMGGameBar/Classes/API/",
+			 "/Users/giseok/Documents/Project/Build/OMGGameBar/Classes/Function/",
+			 "/Users/giseok/Documents/Project/Build/OMGGameBar/Classes/UI/"],
+	"excludes":	["^.*.meta$", "^.*.mdown^", "^.*.pdf$"]
+}
+
+
