@@ -28,7 +28,7 @@ public class iOSBuilder
     static readonly string XCODEPRJ_FPATH = Path.GetFullPath(Path.Combine(Application.dataPath, "../../BuildResult"));
 
     // ref: /Users/eunpyoungkim/Library/MobileDevice/Provisioning Profiles
-    const string PROVISIONING_UUID = "978518f8-7431-4f54-b889-34bdf8312408";
+    const string PROVISIONING_UUID = "978518f8-7431-4f54-b889-xxxxxxxxxxxx";
     const string CODE_SIGN_NAME = "iPhone Distribution: APPLE, Inc.";
 
     static void PerformiOSBuild()
